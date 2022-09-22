@@ -31,7 +31,7 @@
           if ($db_conexion->query($sql)===true){
             $db_conexion->close();
            
-            header('Location: /empresa_2021');
+            header('Location: /Colegio');
             //header('Location: index.php');
            
           }else{
